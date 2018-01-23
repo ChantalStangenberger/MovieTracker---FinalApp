@@ -309,7 +309,7 @@
         <scene sceneID="HnO-JR-g8f">
             <objects>
                 <navigationController id="9y9-uC-DbL" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="MT users" image="Contacts" id="2Ti-Vv-AvY"/>
+                    <tabBarItem key="tabBarItem" title="MT users" image="MT users" id="2Ti-Vv-AvY"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="dOg-fe-sfd">
                         <rect key="frame" x="0.0" y="20" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -473,11 +473,11 @@
             </objects>
             <point key="canvasLocation" x="2073" y="-160"/>
         </scene>
-        <!--Watch list-->
+        <!--Watchlist-->
         <scene sceneID="gId-eW-FYo">
             <objects>
                 <navigationController id="aKT-G9-urC" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Watch list" image="Watch list" id="Ylv-eR-irw"/>
+                    <tabBarItem key="tabBarItem" title="Watchlist" image="Watchlist" id="Ylv-eR-irw"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" backIndicatorImage="background" id="VoV-cT-2RG">
                         <rect key="frame" x="0.0" y="20" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -661,9 +661,9 @@
         </scene>
     </scenes>
     <resources>
-        <image name="Contacts" width="30" height="30"/>
+        <image name="MT users" width="30" height="30"/>
         <image name="Out now!" width="29" height="30"/>
-        <image name="Watch list" width="30" height="30"/>
+        <image name="Watchlist" width="30" height="30"/>
         <image name="background" width="640" height="1136"/>
         <image name="filmrol" width="1920" height="504"/>
     </resources>
