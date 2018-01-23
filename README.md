@@ -12,7 +12,7 @@ MovieTracker is een app waarbij de gebruiker films kan toevoegen aan zijn of haa
 
 * Om MovieTracker te kunnen gebruiken is het vereist om een account aan te maken!
 
-### Screenshots
+## Screenshots
 
 #### * login & register
 <img src=https://github.com/ChantalStangenberger/MovieTracker---FinalApp/blob/master/doc/loginscreen.jpg width="300"> <img src=https://github.com/ChantalStangenberger/MovieTracker---FinalApp/blob/master/doc/registerscreen.jpg width="300">
