@@ -281,7 +281,7 @@
                                 </tableViewCellContentView>
                                 <connections>
                                     <outlet property="emailLabel" destination="frc-u5-Ld2" id="6Mt-fR-Bff"/>
-                                    <segue destination="uxP-v4-MjS" kind="showDetail" identifier="UserDetail" action="showViewController:sender:" id="DSq-yb-yZr"/>
+                                    <segue destination="uxP-v4-MjS" kind="show" identifier="UserDetail" id="DSq-yb-yZr"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>
@@ -449,7 +449,7 @@
                                                     </constraints>
                                                     <connections>
                                                         <outlet property="ImageMovie" destination="xHe-H9-XCG" id="ePN-Q1-ji3"/>
-                                                        <segue destination="L6U-KE-GK6" kind="push" identifier="MovieDetail" id="Btw-PX-ZOE"/>
+                                                        <segue destination="L6U-KE-GK6" kind="show" identifier="MovieDetail" id="Btw-PX-ZOE"/>
                                                     </connections>
                                                 </collectionViewCell>
                                             </cells>
