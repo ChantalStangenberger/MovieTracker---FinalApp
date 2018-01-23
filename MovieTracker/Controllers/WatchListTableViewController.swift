@@ -19,14 +19,15 @@ class WatchListTableViewController: UITableViewController {
     // loads WatchListTableViewController with some preferences for the layout and calls function getMovies
     override func viewDidLoad() {
         super.viewDidLoad()
+        
         let backgroundImage = UIImage(named: "background.png")
         let imageView = UIImageView(image: backgroundImage)
-        self.tableView.backgroundView = imageView
-        
         let blurEffect = UIBlurEffect(style: UIBlurEffectStyle.light)
         let blurView = UIVisualEffectView(effect: blurEffect)
         blurView.frame = imageView.bounds
         imageView.addSubview(blurView)
+        self.tableView.backgroundView = imageView
+
         tableView.separatorStyle = .none
         
         tableView.allowsMultipleSelectionDuringEditing = true

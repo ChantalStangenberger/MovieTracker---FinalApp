@@ -17,6 +17,9 @@ class UsersTableViewController: UITableViewController {
     // loads UsersTableViewController with some preferences for the layout and calls function getUsers
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        tableView.separatorStyle = .none
+        
         let backgroundImage = UIImage(named: "background.png")
         let imageView = UIImageView(image: backgroundImage)
         self.tableView.backgroundView = imageView
@@ -25,7 +28,6 @@ class UsersTableViewController: UITableViewController {
         let blurView = UIVisualEffectView(effect: blurEffect)
         blurView.frame = imageView.bounds
         imageView.addSubview(blurView)
-        tableView.separatorStyle = .none
         
         getUsers()
     }
