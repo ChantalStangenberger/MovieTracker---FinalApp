@@ -14,22 +14,22 @@ MovieTracker is een app waarbij de gebruiker films kan toevoegen aan zijn of haa
 
 ### Screenshots
 
-<img src=https://github.com/ChantalStangenberger/MovieTracker---FinalApp/blob/master/doc/loginscreen.jpg width="300">         <img src=https://github.com/ChantalStangenberger/MovieTracker---FinalApp/blob/master/doc/registerscreen.jpg width="300">
+<img src=https://github.com/ChantalStangenberger/MovieTracker---FinalApp/blob/master/doc/loginscreen.jpg width="300"> <img src=https://github.com/ChantalStangenberger/MovieTracker---FinalApp/blob/master/doc/registerscreen.jpg width="300">
 
 
 
 
 
-<img src=https://github.com/ChantalStangenberger/MovieTracker---FinalApp/blob/master/doc/nowplayingscreen.jpg width="300">          <img src=https://github.com/ChantalStangenberger/MovieTracker---FinalApp/blob/master/doc/moviedetailscreen.jpg width="300">
+<img src=https://github.com/ChantalStangenberger/MovieTracker---FinalApp/blob/master/doc/nowplayingscreen.jpg width="300"><img src=https://github.com/ChantalStangenberger/MovieTracker---FinalApp/blob/master/doc/moviedetailscreen.jpg width="300">
 
 
 
 
 
-<img src=https://github.com/ChantalStangenberger/MovieTracker---FinalApp/blob/master/doc/personalwatchlistscreen.jpg width="300">         <img src=https://github.com/ChantalStangenberger/MovieTracker---FinalApp/blob/master/doc/deletefromwatchlist.jpg width="300">
+<img src=https://github.com/ChantalStangenberger/MovieTracker---FinalApp/blob/master/doc/personalwatchlistscreen.jpg width="300"><img src=https://github.com/ChantalStangenberger/MovieTracker---FinalApp/blob/master/doc/deletefromwatchlist.jpg width="300">
 
 
 
 
 
-<img src=https://github.com/ChantalStangenberger/MovieTracker---FinalApp/blob/master/doc/MovieTrackerusersscreen.jpg width="300">         <img src=https://github.com/ChantalStangenberger/MovieTracker---FinalApp/blob/master/doc/watchlistofspecificuserscreen.jpg width="300">
+<img src=https://github.com/ChantalStangenberger/MovieTracker---FinalApp/blob/master/doc/MovieTrackerusersscreen.jpg width="300"><img src=https://github.com/ChantalStangenberger/MovieTracker---FinalApp/blob/master/doc/watchlistofspecificuserscreen.jpg width="300">
