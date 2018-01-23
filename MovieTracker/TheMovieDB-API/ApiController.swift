@@ -5,6 +5,8 @@
 //  Created by Chantal Stangenberger on 16-01-18.
 //  Copyright © 2018 Chantal Stangenberger. All rights reserved.
 //
+//  Request now playing movies from The Movie Database.
+//
 
 import Foundation
 

@@ -5,6 +5,8 @@
 //  Created by Chantal Stangenberger on 16-01-18.
 //  Copyright © 2018 Chantal Stangenberger. All rights reserved.
 //
+//  Displays the movies details from The Movie Database and allows users to add movies to their watchlist.
+//
 
 import UIKit
 import Firebase

@@ -5,6 +5,8 @@
 //  Created by Chantal Stangenberger on 21-01-18.
 //  Copyright © 2018 Chantal Stangenberger. All rights reserved.
 //
+//  Displays watchlist of specific MovieTracker user.
+//
 
 import UIKit
 import Firebase

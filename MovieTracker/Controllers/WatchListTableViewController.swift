@@ -5,6 +5,8 @@
 //  Created by Chantal Stangenberger on 17-01-18.
 //  Copyright © 2018 Chantal Stangenberger. All rights reserved.
 //
+//  Displays the watchlist of the current user. User can swipe right to delete movie from their watchlist.
+//
 // Used https://grokswift.com/transparent-table-view/ to get a transparant tableview
 //
 

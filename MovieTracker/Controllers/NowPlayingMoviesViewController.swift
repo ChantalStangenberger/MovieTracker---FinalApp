@@ -5,6 +5,8 @@
 //  Created by Chantal Stangenberger on 15-01-18.
 //  Copyright © 2018 Chantal Stangenberger. All rights reserved.
 //
+//  Displays the now playing movies in the cinema from The Movie Database.
+//
 //  Used https://www.youtube.com/watch?v=hPJaQ2Fh7Ao&t=206s for inspiration of working with a collectionview.
 //
 

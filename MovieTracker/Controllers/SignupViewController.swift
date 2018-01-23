@@ -5,6 +5,8 @@
 //  Created by Chantal Stangenberger on 05-01-18.
 //  Copyright © 2018 Chantal Stangenberger. All rights reserved.
 //
+//  Allows the user to create an account for MovieTracker.
+//
 
 import UIKit
 import Firebase
