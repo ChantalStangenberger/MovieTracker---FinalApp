@@ -256,7 +256,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="UserCell" rowHeight="70" id="Gy5-1f-gxL" customClass="UsersTableViewCell" customModule="MovieTracker" customModuleProvider="target">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="UserCell" rowHeight="70" id="Gy5-1f-gxL" customClass="UsersTableViewCell" customModule="MovieTracker" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="28" width="375" height="70"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Gy5-1f-gxL" id="GQX-wN-43T">
@@ -281,7 +281,7 @@
                                 </tableViewCellContentView>
                                 <connections>
                                     <outlet property="emailLabel" destination="frc-u5-Ld2" id="6Mt-fR-Bff"/>
-                                    <segue destination="uxP-v4-MjS" kind="push" identifier="UserDetail" id="DSq-yb-yZr"/>
+                                    <segue destination="uxP-v4-MjS" kind="showDetail" identifier="UserDetail" action="showViewController:sender:" id="DSq-yb-yZr"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>
@@ -303,7 +303,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jst-sB-w3e" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2789.5999999999999" y="998.95052473763121"/>
+            <point key="canvasLocation" x="2073" y="1522"/>
         </scene>
         <!--MT users-->
         <scene sceneID="HnO-JR-g8f">
@@ -321,7 +321,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2pz-L7-G0V" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1977" y="999"/>
+            <point key="canvasLocation" x="1201" y="1522"/>
         </scene>
         <!--Personal watch list-->
         <scene sceneID="BvT-8P-jUk">
@@ -332,14 +332,14 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="WatchListCell" rowHeight="146" id="hQj-hu-dVm" customClass="WatchListTableViewCell" customModule="MovieTracker" customModuleProvider="target">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="WatchListCell" rowHeight="146" id="hQj-hu-dVm" customClass="WatchListTableViewCell" customModule="MovieTracker" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="28" width="375" height="146"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="hQj-hu-dVm" id="kvl-zb-wIU">
                                     <rect key="frame" x="0.0" y="0.0" width="375" height="145.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
-                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="imageBackground" translatesAutoresizingMaskIntoConstraints="NO" id="Ywg-az-gAn" userLabel="imageWatch">
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Ywg-az-gAn" userLabel="imageWatch">
                                             <rect key="frame" x="10" y="4" width="106" height="131"/>
                                             <constraints>
                                                 <constraint firstAttribute="height" constant="131" id="B6N-Nt-Fqd"/>
@@ -397,7 +397,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8A4-N2-cKx" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2790" y="81"/>
+            <point key="canvasLocation" x="2945" y="642"/>
         </scene>
         <!--Now playing in the Cinema-->
         <scene sceneID="FHR-c3-a3W">
@@ -436,7 +436,7 @@
                                                         <rect key="frame" x="0.0" y="0.0" width="172" height="224"/>
                                                         <autoresizingMask key="autoresizingMask"/>
                                                         <subviews>
-                                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="imageBackground" translatesAutoresizingMaskIntoConstraints="NO" id="xHe-H9-XCG">
+                                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="xHe-H9-XCG">
                                                                 <rect key="frame" x="0.0" y="1" width="172" height="223"/>
                                                             </imageView>
                                                         </subviews>
@@ -471,7 +471,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gH8-cy-PVv" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2790" y="-802"/>
+            <point key="canvasLocation" x="2073" y="-160"/>
         </scene>
         <!--Watch list-->
         <scene sceneID="gId-eW-FYo">
@@ -489,7 +489,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="sS9-GT-xRu" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1977" y="81"/>
+            <point key="canvasLocation" x="2073" y="642"/>
         </scene>
         <!--Movie Detail View Controller-->
         <scene sceneID="PGp-3q-aap">
@@ -510,7 +510,7 @@
                                     <rect key="frame" x="0.0" y="0.0" width="375" height="609"/>
                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                     <subviews>
-                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="imageBackground" translatesAutoresizingMaskIntoConstraints="NO" id="yLU-is-2e8">
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="yLU-is-2e8">
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="340"/>
                                             <constraints>
                                                 <constraint firstAttribute="height" constant="340" id="1f3-gh-1AH"/>
@@ -561,7 +561,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="atl-GW-lP2" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3581.5999999999999" y="-803.74812593703155"/>
+            <point key="canvasLocation" x="2945" y="-157"/>
         </scene>
         <!--Out now!-->
         <scene sceneID="eJZ-LP-CCB">
@@ -579,7 +579,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="euO-ga-JWc" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1977" y="-802"/>
+            <point key="canvasLocation" x="1201" y="-159"/>
         </scene>
         <!--Watch list-->
         <scene sceneID="pba-eh-c4u">
@@ -590,14 +590,14 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="UserWatchListCell" rowHeight="146" id="Oj3-cK-2fQ" customClass="WatchListTableViewCell" customModule="MovieTracker" customModuleProvider="target">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="UserWatchListCell" rowHeight="146" id="Oj3-cK-2fQ" customClass="WatchListTableViewCell" customModule="MovieTracker" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="28" width="375" height="146"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Oj3-cK-2fQ" id="w4J-Y1-TFe">
                                     <rect key="frame" x="0.0" y="0.0" width="375" height="145.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
-                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="imageBackground" translatesAutoresizingMaskIntoConstraints="NO" id="C3w-O1-6iG" userLabel="imageWatch">
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="C3w-O1-6iG" userLabel="imageWatch">
                                             <rect key="frame" x="10" y="4" width="106" height="131"/>
                                             <constraints>
                                                 <constraint firstAttribute="height" constant="131" id="0r9-Z2-yHJ"/>
@@ -657,7 +657,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="n0m-Qk-13r" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3582" y="999"/>
+            <point key="canvasLocation" x="2946" y="1522"/>
         </scene>
     </scenes>
     <resources>
@@ -666,10 +666,9 @@
         <image name="Watch list" width="30" height="30"/>
         <image name="background" width="640" height="1136"/>
         <image name="filmrol" width="1920" height="504"/>
-        <image name="imageBackground" width="200" height="200"/>
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="bsK-4e-FOi"/>
-        <segue reference="Iha-i4-F86"/>
+        <segue reference="Uv0-ws-xvw"/>
     </inferredMetricsTieBreakers>
 </document>

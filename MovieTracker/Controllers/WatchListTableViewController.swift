@@ -16,15 +16,9 @@ class WatchListTableViewController: UITableViewController {
     var movies = [Movies]()
     let ref = Database.database().reference()
 
-    // loads WatchListTableViewController and calls function getMovies
+    // loads WatchListTableViewController with some preferences for the layout and calls function getMovies
     override func viewDidLoad() {
         super.viewDidLoad()
-        tableView.allowsMultipleSelectionDuringEditing = true
-        getMovies()
-    }
-    
-    // some preferences for the layout
-    override func viewDidAppear(_ animated: Bool) {
         let backgroundImage = UIImage(named: "background.png")
         let imageView = UIImageView(image: backgroundImage)
         self.tableView.backgroundView = imageView
@@ -34,6 +28,10 @@ class WatchListTableViewController: UITableViewController {
         blurView.frame = imageView.bounds
         imageView.addSubview(blurView)
         tableView.separatorStyle = .none
+        
+        tableView.allowsMultipleSelectionDuringEditing = true
+        
+        getMovies()
     }
     
     // checks for currents user data (movies) in firebase

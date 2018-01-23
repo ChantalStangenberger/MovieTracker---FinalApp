@@ -14,8 +14,10 @@ class UserWatchListTableViewController: UITableViewController {
     var userMovies = [Movies]()
     let ref = Database.database().reference()
     
-    // some preferences for the layout
-    override func viewDidAppear(_ animated: Bool) {
+    // loads UserWatchListTableViewController with some preferences for the layout and calls function getUsersMovies
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        
         let backgroundImage = UIImage(named: "background.png")
         let imageView = UIImageView(image: backgroundImage)
         self.tableView.backgroundView = imageView
@@ -25,6 +27,7 @@ class UserWatchListTableViewController: UITableViewController {
         blurView.frame = imageView.bounds
         imageView.addSubview(blurView)
         tableView.separatorStyle = .none
+        
         getUserMovies()
     }
     
@@ -47,8 +50,9 @@ class UserWatchListTableViewController: UITableViewController {
         return userMovies.count
     }
     
-    // returns tableview cell with data from firebase
+     // returns tableview cell with data from firebase
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+
         let cell = tableView.dequeueReusableCell(withIdentifier: "UserWatchListCell", for: indexPath) as? WatchListTableViewCell
         cell?.movieDescription?.text = userMovies[indexPath.row].movieDescription
         cell?.movieTitle?.text = userMovies[indexPath.row].movieTitle

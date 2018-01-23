@@ -13,16 +13,10 @@ class UsersTableViewController: UITableViewController {
     
     var users = [Users]()
     let ref = Database.database().reference()
-    let firebaseAuth = Auth.auth()
     
-    // loads UsersTableViewController and calls function getUsers
+    // loads UsersTableViewController with some preferences for the layout and calls function getUsers
     override func viewDidLoad() {
         super.viewDidLoad()
-        getUsers()
-    }
-    
-    // some preferences for the layout
-    override func viewDidAppear(_ animated: Bool) {
         let backgroundImage = UIImage(named: "background.png")
         let imageView = UIImageView(image: backgroundImage)
         self.tableView.backgroundView = imageView
@@ -32,6 +26,8 @@ class UsersTableViewController: UITableViewController {
         blurView.frame = imageView.bounds
         imageView.addSubview(blurView)
         tableView.separatorStyle = .none
+        
+        getUsers()
     }
     
     // checks for MovieTracker users in firebase
@@ -73,7 +69,7 @@ class UsersTableViewController: UITableViewController {
     // sign out: sign user out and go to the log in page
     @IBAction func SignOutButtonTapped(_ sender: UIBarButtonItem) {
         do {
-            try firebaseAuth.signOut()
+            try Auth.auth().signOut()
             self.performSegue(withIdentifier: "SignOutSegue", sender: self)
         } catch let signOutError as NSError {
                 print ("Error signing out: %@", signOutError)
