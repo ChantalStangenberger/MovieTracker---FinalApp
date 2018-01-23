@@ -23,11 +23,8 @@
 		50CD284A1FFD31EF0018F26B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50CD28491FFD31EF0018F26B /* AppDelegate.swift */; };
 		50CD284C1FFD31EF0018F26B /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50CD284B1FFD31EF0018F26B /* LoginViewController.swift */; };
 		50CD284F1FFD31EF0018F26B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50CD284D1FFD31EF0018F26B /* Main.storyboard */; };
-		50CD28521FFD31EF0018F26B /* MovieTracker.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 50CD28501FFD31EF0018F26B /* MovieTracker.xcdatamodeld */; };
 		50CD28541FFD31EF0018F26B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50CD28531FFD31EF0018F26B /* Assets.xcassets */; };
 		50CD28571FFD31EF0018F26B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50CD28551FFD31EF0018F26B /* LaunchScreen.storyboard */; };
-		50CD28621FFD31EF0018F26B /* MovieTrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50CD28611FFD31EF0018F26B /* MovieTrackerTests.swift */; };
-		50CD286D1FFD31EF0018F26B /* MovieTrackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50CD286C1FFD31EF0018F26B /* MovieTrackerUITests.swift */; };
 		50CD287B1FFD34690018F26B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 50CD287A1FFD34690018F26B /* GoogleService-Info.plist */; };
 		50D9C0491FFFE7E000B1C4BF /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50D9C0481FFFE7E000B1C4BF /* SignupViewController.swift */; };
 		8A7B27D1386BDA9B08F55599 /* Pods_MovieTracker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C48A5FEA12D4B3BA0ABEC1AE /* Pods_MovieTracker.framework */; };
@@ -68,16 +65,11 @@
 		50CD28491FFD31EF0018F26B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		50CD284B1FFD31EF0018F26B /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		50CD284E1FFD31EF0018F26B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		50CD28511FFD31EF0018F26B /* MovieTracker.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MovieTracker.xcdatamodel; sourceTree = "<group>"; };
 		50CD28531FFD31EF0018F26B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		50CD28561FFD31EF0018F26B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		50CD28581FFD31EF0018F26B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		50CD285D1FFD31EF0018F26B /* MovieTrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MovieTrackerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		50CD28611FFD31EF0018F26B /* MovieTrackerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieTrackerTests.swift; sourceTree = "<group>"; };
-		50CD28631FFD31EF0018F26B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		50CD28681FFD31EF0018F26B /* MovieTrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MovieTrackerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		50CD286C1FFD31EF0018F26B /* MovieTrackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieTrackerUITests.swift; sourceTree = "<group>"; };
-		50CD286E1FFD31EF0018F26B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		50CD287A1FFD34690018F26B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		50D9C0481FFFE7E000B1C4BF /* SignupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
 		950A160267297BC519F1126D /* Pods-MovieTracker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MovieTracker.release.xcconfig"; path = "Pods/Target Support Files/Pods-MovieTracker/Pods-MovieTracker.release.xcconfig"; sourceTree = "<group>"; };
@@ -144,8 +136,6 @@
 			isa = PBXGroup;
 			children = (
 				50CD28481FFD31EF0018F26B /* MovieTracker */,
-				50CD28601FFD31EF0018F26B /* MovieTrackerTests */,
-				50CD286B1FFD31EF0018F26B /* MovieTrackerUITests */,
 				50CD28471FFD31EF0018F26B /* Products */,
 				799CD0DF58B2C1D40F7EA3DE /* Pods */,
 				F568DFDD9ED53186E9758AAC /* Frameworks */,
@@ -175,27 +165,8 @@
 				50CD28531FFD31EF0018F26B /* Assets.xcassets */,
 				50CD28551FFD31EF0018F26B /* LaunchScreen.storyboard */,
 				50CD28581FFD31EF0018F26B /* Info.plist */,
-				50CD28501FFD31EF0018F26B /* MovieTracker.xcdatamodeld */,
 			);
 			path = MovieTracker;
-			sourceTree = "<group>";
-		};
-		50CD28601FFD31EF0018F26B /* MovieTrackerTests */ = {
-			isa = PBXGroup;
-			children = (
-				50CD28611FFD31EF0018F26B /* MovieTrackerTests.swift */,
-				50CD28631FFD31EF0018F26B /* Info.plist */,
-			);
-			path = MovieTrackerTests;
-			sourceTree = "<group>";
-		};
-		50CD286B1FFD31EF0018F26B /* MovieTrackerUITests */ = {
-			isa = PBXGroup;
-			children = (
-				50CD286C1FFD31EF0018F26B /* MovieTrackerUITests.swift */,
-				50CD286E1FFD31EF0018F26B /* Info.plist */,
-			);
-			path = MovieTrackerUITests;
 			sourceTree = "<group>";
 		};
 		50D9C04A2000D99C00B1C4BF /* Controllers */ = {
@@ -419,7 +390,6 @@
 				50BDE25B20151894003E5B01 /* UserWatchListTableViewController.swift in Sources */,
 				50BDE24D200F81D1003E5B01 /* WatchListTableViewController.swift in Sources */,
 				50CC17EC200CB38B00FD3BA8 /* NowPlayingMoviesViewController.swift in Sources */,
-				50CD28521FFD31EF0018F26B /* MovieTracker.xcdatamodeld in Sources */,
 				50BDE2572014F7F8003E5B01 /* UsersTableViewCell.swift in Sources */,
 				50BDE251200F8B05003E5B01 /* Users.swift in Sources */,
 				50BDE25520128078003E5B01 /* MoviesFirebase.swift in Sources */,
@@ -439,7 +409,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				50CD28621FFD31EF0018F26B /* MovieTrackerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -447,7 +416,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				50CD286D1FFD31EF0018F26B /* MovieTrackerUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -733,19 +701,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		50CD28501FFD31EF0018F26B /* MovieTracker.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				50CD28511FFD31EF0018F26B /* MovieTracker.xcdatamodel */,
-			);
-			currentVersion = 50CD28511FFD31EF0018F26B /* MovieTracker.xcdatamodel */;
-			path = MovieTracker.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = 50CD283E1FFD31EE0018F26B /* Project object */;
 }
