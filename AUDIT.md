@@ -8,4 +8,5 @@
 
 <img src=https://github.com/ChantalStangenberger/MovieTracker---FinalApp/blob/master/doc/BetterCodeHub%20-%20tasklist.png width="500">
 
-A lot of the problem sections on the tasklist are due to preferences of displaying the table views.
+Veel van de 'problem sections' die in de tasklist staan, zijn te wijten aan specifieke voorkeuren voor het weergeven van de tableviews.
+
