@@ -13,8 +13,8 @@ import Firebase
 
 class WatchListTableViewController: UITableViewController {
     
-    var movies = [Movies]()
     let ref = Database.database().reference()
+    var movies = [Movies]()
 
     // loads WatchListTableViewController with some preferences for the layout and calls function getMovies
     override func viewDidLoad() {

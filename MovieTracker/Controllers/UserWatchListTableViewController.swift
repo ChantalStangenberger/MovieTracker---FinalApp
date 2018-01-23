@@ -11,8 +11,8 @@ import Firebase
 
 class UserWatchListTableViewController: UITableViewController {
     
-    var userMovies = [Movies]()
     let ref = Database.database().reference()
+    var userMovies = [Movies]()
     
     // loads UserWatchListTableViewController with some preferences for the layout and calls function getUsersMovies
     override func viewDidLoad() {

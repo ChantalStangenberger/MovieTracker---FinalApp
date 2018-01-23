@@ -11,8 +11,8 @@ import Firebase
 
 class UsersTableViewController: UITableViewController {
     
-    var users = [Users]()
     let ref = Database.database().reference()
+    var users = [Users]()
     
     // loads UsersTableViewController with some preferences for the layout and calls function getUsers
     override func viewDidLoad() {
